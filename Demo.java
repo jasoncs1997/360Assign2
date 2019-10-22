@@ -1,25 +1,21 @@
-/*
- * Name : Duc Huy Dao
- * ID : 1215210230
- * Assignment :2
- * This file solely purpose is only for testing the program
- */
-package cse360assign2;
+package cse360assign3;
 
 public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//create a new AddingMachine object
-		AddingMachine test = new AddingMachine();
-		//testing
+		Calculator test = new Calculator();
+		
 		test.add(5);
-		test.subtract(3);
-		test.add(11);
+		test.power(-3);
+		test.mult(4);
+		test.add(10);
+		test.div(4);
 		String finalre = test.toString();
 		int finaltotal = test.getTotal();
 		System.out.println(finalre);
 		System.out.println(finaltotal);
+		
 		
 	}
 
